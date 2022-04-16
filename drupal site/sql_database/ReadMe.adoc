@@ -1,7 +1,8 @@
-= SQL Database : The file is generated after exporting SQL database from phpMyAdmin Control panel.
+= SQL Database : 
 :toc:
 :toc-placement!:
 
+The file is generated after exporting SQL database from phpMyAdmin Control panel.
 
 image:https://github.com/Tiwari-Pranav/fsf_2022_task3/Images/database-1.png[Database Image,title="Database Image"]
 
