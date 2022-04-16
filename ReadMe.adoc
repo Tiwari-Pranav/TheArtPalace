@@ -21,64 +21,64 @@ image:https://github.com/Tiwari-Pranav/fsf_2022_task3/blob/main/Images/basic-lay
 toc::[]
 
 == New Content Types Added 
-**Website** utalizes well defined content types:
+**The Website** utalizes well defined content types:
 
 === Artist 	
-This content type keeps track of our affliated artists around the world. Each artisit is connected with their art pieces present on website through Entity reference.
+This content type keeps track of our affiliated  artists around the world. Each artist  is connected with their art pieces present on he website through Entity reference.
 
 === Art Piece 	
-This is content type where artist can add their art piece which would be linked to artist profile. They also utalize closed Taxonomy so that they could be sgrouped easily	
+This is a content type where the artist can add their art piece which would be linked to artist profile. They also utilize closed Taxonomy so that they could be grouped easily	.
 
 === Article 	
-We use articles for time-sensitive content like news, press releases or blog posts realted to art and gallery. 	
+We use articles for time-sensitive content like news, press releases, or blog posts related to art and gallery. 	
 
 === Book page
-Use for educational resouces or tutorials added on website. Books have a built-in hierarchical navigation.  	
+Use for educational resources or tutorials added on the website. Books have a built-in hierarchical navigation.  	
 
 === Events
-This is where we track all events organized by the company which include fieds such as event date,event logo,event website, event sponsers which are interlinked to their profile and kind of association with the company. 	
+This is where we track all events organized by the company which include fields such as event date, event logo, event website, event sponsors which are interlinked to their profile and kind of association with the company. 	
 
 === Forum topic 	
-A forum topic starts a new discussion thread within varous forum we have on the website to help young artists discuss. 	
+A forum topic starts a new discussion thread within various forums we have on the website to help young artists discuss. 	
 
 === Locations 	
-Location type is used to keep track of on ground gallery locations 	
+Location type is used to keep track of on-ground gallery locations 	
 
 === Sponsor
-Sponsors type is used to record details of event sponsers and hence are interconnected with event content type.
+Sponsors type is used to record details of event sponsors and hence are interconnected with event content type.
 
 == Taxonomy
-Website has three sets of taxonomies:
-- Forum: The form taxonomy where the forum types get categorised.
+The Website has three sets of taxonomies:
+- Forum: The form taxonomy where the forum types get categorized.
 - Event Topics: To group company events.
- -Tags: For the Editor to group differnt Artices.
+ -Tags: For the Editor to group different Articles.
 These cannot be configured easily by user so as to prevent misspelled tags to enter in database.
 
 == Views Added
-Various well formatted views were added on webpage to display content related content on each page 
+Various well-formatted views were added to the webpage to display content related content on each page 
 
 === Events
-Webpage includes a custom Events view to clearly display list of all events being held by company on the user's machine. Where each entry is linked with each events content page.And the view is also pinned to top navigation bar.
+The Webpage includes a custom Events view to clearly display a list of all events being held by the company on the user's machine. Where each entry is linked with each event's content page. And the view is also pinned to the top navigation bar.
 
 === Gallery
-Gallery includes a custom grid layout to showcase the Digital Art Pieces . Where each entry is linked with their artists profile through art image.And the view is also pinned to top navigation bar.
+The gallery includes a custom grid layout to showcase the Digital Art Pieces . Where each entry is linked with their artist's profile through an art image. And the view is also pinned to the top navigation bar.
 
 === Our Artists
-Our Artists is a custom unformatted list layout to showcase our Artist name in first sidebar on the artist page . Where each entry is linked with their artists profile.
+Our Artists is a custom unformatted list layout to showcase our Artist's name in the first sidebar on the artist page . Where each entry is linked with their artist's profile.
 
 === Recent Events Added
-is is a custom unformatted list layout to showcase Recent Added Events name in first sidebar on the artist page . Where each entry is only displayed in decresing order of their last updated timeand is linked with event page.
+is is a custom unformatted list layout to showcase the Recent Added Events name in the first sidebar on the artist page . Where each entry is only displayed in decreasing order of their last updated time and is linked with theevent page.
 
 === Sponsors
-Gallery presents a custom table layout to showcase the Names of our sponsers and their details. Where each sponser is linked with the event page they sponsered. And the view is also pinned to top navigation bar.
+The Gallery presents a custom table layout to showcase the names of our sponsors and their details. Where each sponsor is linked with the event page each sponsered. And the view is also pinned to the top navigation bar.
 
 Upcoming Events
-is is a custom custom table layout to showcase Upcoming Events on the a seprate page which is pinned to op nevigations event menu. Only those entries are displayes whose date of event >= now.
+is is a custom custom table layout to showcase Upcoming Events on a seprate page which is pinned to the top navigations, event menu. Only those entries are displayed whose date of event >= now.
 
 == Featres
 **The Art Palace Web Page**  comprises of  __amazing__ features :
 
-== Fully responsive:
+=== Fully responsive:
 - Desktop
 - Tablates
 - Mobile Phones
@@ -88,3 +88,20 @@ is is a custom custom table layout to showcase Upcoming Events on the a seprate 
 ***Demo***
 
 image:https://github.com/Tiwari-Pranav/fsf_2022_task3/blob/main/Images/resonsive-page.gif[Responsive Demo]
+
+=== Profile Picture
+
+Profile Picture of User Logged-In is displayed in the fourth footer
+
+***Demo***
+
+***__Anonymous User Logged-In__***
+
+image:https://github.com/Tiwari-Pranav/fsf_2022_task3/blob/main/Images/anonymous-user-pic.png[Anonymous Demo]
+
+***_Admin Logged-In_***
+
+image:https://github.com/Tiwari-Pranav/fsf_2022_task3/blob/main/Images/admin-user-pic.png[Admin Demo]
+
+
+
