@@ -2,14 +2,15 @@
 :toc:
 :toc-placement!:
 
-The file is generated after exporting SQL database from phpMyAdmin Control panel.
 
-image:https://github.com/Tiwari-Pranav/fsf_2022_task3/Images/database-1.png[Database Image,title="Database Image"]
+image:https://github.com/Tiwari-Pranav/fsf_2022_task3/blob/main/Images/database-1.png[Database Image,title="Database Image"]
 
-== Intro
-Would it not be nice if..
+== bitnami_drupal8.sql
+The file is generated after **exporting SQL database** from **phpMyAdmin** Control panel.
 
-You could open your IDE on any file from any app? 
+image:https://github.com/Tiwari-Pranav/fsf_2022_task3/blob/main/Images/database-2.png[Database Image,title="Database Image"]
+
+Software used: **Bitnami**
 
 OR
 
