@@ -1,0 +1,90 @@
+= The Art Palace : 
+:toc:
+:toc-placement!:
+
+
+image:https://github.com/Tiwari-Pranav/fsf_2022_task3/blob/main/Images/website-logo.png[TAP Logo,title="TAP Logo"]
+
+
+**The Art Palace** is a **Mutli National Coorperation** that deals in **Traditional Art** such as painting, sceneries as well **Digital Art** such as visual graphics, 2D/3D animation, animated gif etc. Company owns mutliple **High-end ART Gllaries** in key cities In India, which also serve as their centre of operation for business dealings aroung the **Globe**. The Gallarist also try to give back as much as they can by supporting young artists through well documented **resources** and **tutorial**, and by providing a platform would let them **showcase** shocase their talent. TAP also provide to a discussion platform through its form sucso that young minds can get experienced artists. 
+
+== Website 
+
+A **fully responsive Drupal 9**  web page for **The ART Palace**
+
+
+image:https://github.com/Tiwari-Pranav/fsf_2022_task3/blob/main/Images/basic-layout-demo.gif[TAP Demo]
+
+[discrete]
+# INDEX
+
+toc::[]
+
+== New Content Types Added 
+**Website** utalizes well defined content types:
+
+=== Artist 	
+This content type keeps track of our affliated artists around the world. Each artisit is connected with their art pieces present on website through Entity reference.
+
+=== Art Piece 	
+This is content type where artist can add their art piece which would be linked to artist profile. They also utalize closed Taxonomy so that they could be sgrouped easily	
+
+=== Article 	
+We use articles for time-sensitive content like news, press releases or blog posts realted to art and gallery. 	
+
+=== Book page
+Use for educational resouces or tutorials added on website. Books have a built-in hierarchical navigation.  	
+
+=== Events
+This is where we track all events organized by the company which include fieds such as event date,event logo,event website, event sponsers which are interlinked to their profile and kind of association with the company. 	
+
+=== Forum topic 	
+A forum topic starts a new discussion thread within varous forum we have on the website to help young artists discuss. 	
+
+=== Locations 	
+Location type is used to keep track of on ground gallery locations 	
+
+=== Sponsor
+Sponsors type is used to record details of event sponsers and hence are interconnected with event content type.
+
+== Taxonomy
+Website has three sets of taxonomies:
+- Forum: The form taxonomy where the forum types get categorised.
+- Event Topics: To group company events.
+ -Tags: For the Editor to group differnt Artices.
+These cannot be configured easily by user so as to prevent misspelled tags to enter in database.
+
+== Views Added
+Various well formatted views were added on webpage to display content related content on each page 
+
+=== Events
+Webpage includes a custom Events view to clearly display list of all events being held by company on the user's machine. Where each entry is linked with each events content page.And the view is also pinned to top navigation bar.
+
+=== Gallery
+Gallery includes a custom grid layout to showcase the Digital Art Pieces . Where each entry is linked with their artists profile through art image.And the view is also pinned to top navigation bar.
+
+=== Our Artists
+Our Artists is a custom unformatted list layout to showcase our Artist name in first sidebar on the artist page . Where each entry is linked with their artists profile.
+
+=== Recent Events Added
+is is a custom unformatted list layout to showcase Recent Added Events name in first sidebar on the artist page . Where each entry is only displayed in decresing order of their last updated timeand is linked with event page.
+
+=== Sponsors
+Gallery presents a custom table layout to showcase the Names of our sponsers and their details. Where each sponser is linked with the event page they sponsered. And the view is also pinned to top navigation bar.
+
+Upcoming Events
+is is a custom custom table layout to showcase Upcoming Events on the a seprate page which is pinned to op nevigations event menu. Only those entries are displayes whose date of event >= now.
+
+== Featres
+**The Art Palace Web Page**  comprises of  __amazing__ features :
+
+== Fully responsive:
+- Desktop
+- Tablates
+- Mobile Phones
+
+
+
+***Demo***
+
+image:https://github.com/Tiwari-Pranav/fsf_2022_task3/blob/main/Images/resonsive-page.gif[Responsive Demo]
