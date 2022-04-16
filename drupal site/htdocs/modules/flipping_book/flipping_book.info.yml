@@ -1,0 +1,9 @@
+name: Flipping Book
+type: module
+description: Provides integration with FlippingBook packages.
+core_version_requirement: ^8.8 || ^9
+
+# Information added by Drupal.org packaging script on 2021-08-06
+version: '8.x-1.2'
+project: 'flipping_book'
+datestamp: 1628254969

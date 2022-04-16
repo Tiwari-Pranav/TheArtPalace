@@ -1,0 +1,11 @@
+name: 'Theme test with invalid theme engine'
+type: theme
+description: 'Test theme which has a non-existent theme engine.'
+# version: VERSION
+engine: not_real_engine
+base theme: false
+
+# Information added by Drupal.org packaging script on 2022-04-14
+version: '9.3.11'
+project: 'drupal'
+datestamp: 1649897478

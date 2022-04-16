@@ -1,0 +1,244 @@
+/* Node Content
+--------------------------------------*/
+/* Page title */
+.page-title-wrap {
+  position: relative;
+  margin: 0;
+}
+.page-title-wrap h1.page-title {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+  color: #111;
+}
+
+/* Admin Tabs */
+ul.page-tabs {
+  display: flex;
+  margin: 0 0 10px 0;
+  padding: 0;
+  border-bottom: 1px solid #d1cdc3;
+  list-style: none;
+}
+.page-tabs li {
+  padding: 0;
+}
+.page-tabs li a {
+  border-right: 2px solid #ffffff;
+  padding: 4px 10px;
+  background: #e2dfd8;
+  color: #111;
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px #fff;
+}
+ul.page-tabs li.active-page-tab a,
+ul.page-tabs li a:hover {
+  background: #e3831c;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* common for all nodes */
+.node {
+  position: relative;
+}
+.node-content .field--name-body {
+  text-shadow: 1px 1px #fff;
+}
+
+/* promoted node */
+.node-promoted {
+  position: relative;
+}
+
+/* sticky node */
+.node-sticky {
+  position: relative;
+}
+.node-view-mode-teaser.node-sticky {
+  position: relative;
+  padding: 0 1em 1em 1em;
+  background: #fff;
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+}
+
+/* unpublished node */
+.node-unpublished {
+  position: relative;
+}
+
+/* node in teaser view */
+.node-view-mode-teaser {
+  position: relative;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  border-bottom: 3px double #bbb;
+}
+
+/* full view node */
+.node-view-mode-full {
+  position: relative;
+}
+.node-view-mode-full .node-taxonomy-container {
+  margin-bottom: 14px;
+}
+
+/* node author and submitted details */
+.node-header {
+  position: relative;
+}
+.author-picture {
+  float: left;
+}
+.author-picture img {
+  width: auto;
+  height: 30px;
+  margin-right: 6px;
+}
+.node-submitted-details {
+  margin: 0 0 8px 0;
+  padding: 4px 0;
+  color: #96918b;
+  border-bottom: 1px solid #bbb;
+}
+.node-submitted-details i {
+  color: #e3831c;
+}
+.node-submitted-details a {
+  color: #96918b;
+}
+.node-submitted-details i.fa-calendar,
+.node-submitted-details i.fa-th-large {
+  margin-left: 14px;
+}
+
+/* node taxonomy and links */
+.node-taxonomy-container,
+.node-links-container {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 16px 0 0 0;
+  padding: 16px 0 16px 0;
+  border-top: 1px solid #bbb;
+}
+.node-links-container {
+  border-bottom: 1px solid #bbb;
+}
+h3.term-title {
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 1;
+}
+.term-title i {
+  font-size: 1.1em;
+  color: #e3831c;
+}
+ul.taxonomy-terms {
+  margin: 1em 0 0.2em 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+}
+li.taxonomy-term {
+  display: inline-block;
+}
+li.taxonomy-term a {
+  padding: 4px 12px;
+  border: 3px solid #fff;
+  border-radius: 2px;
+  transition: all 0.4s ease;
+}
+li.taxonomy-term a:hover {
+  background: #fff;
+}
+.node-links-container ul.links {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+}
+ul.inline,
+ul.links.inline {
+  display: inline;
+  padding-left: 0;
+}
+ul.inline li {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  list-style-type: none;
+}
+.node-links-container li {
+  margin-right: 20px;
+  float: left;
+}
+.node-links-container li.node-readmore {
+  margin-left: 0;
+  float: right;
+}
+.node-links-container .comment-comments::before {
+  font-family: "FontAwesome";
+  content: '\f0e6';
+  padding-right: 4px;
+}
+.node-links-container .comment-add::before {
+  font-family: "FontAwesome";
+  content: '\f27b';
+  padding-right: 4px;
+}
+.node-readmore {
+  float: left;
+}
+li.node-readmore a {
+  padding: 6px 12px;
+  background: #e3831c;
+  color: #fff;
+  -webkit-transition: background 0.4s ease;
+  -moz-transition: background 0.4s ease;
+  transition: background 0.4s ease;
+}
+li.node-readmore a:hover {
+  background: #222;
+  color: #fff;
+}
+li.node-readmore a::after {
+  content: "\f178";
+  padding-left: 10px;
+  font-family: "FontAwesome";
+}
+.node-view-mode-teaser li.comment-add,
+.node-view-mode-teaser li.comment-forbidden {
+  text-align: right;
+}
+
+/* pager */
+nav.pager {
+  position: relative;
+}
+.pager ul.pager__items {
+  position: relative;
+  margin: 0;
+  padding: 1em 0;
+  list-style: none;
+  list-style-type: none;
+}
+.pager__items {
+  clear: both;
+  text-align: center;
+}
+.pager__item {
+  display: inline-block;
+}
+.pager__item a {
+  padding: 8px 14px;
+  border: 3px solid #fff;
+  border-radius: 3px;
+}
+.pager__item a:hover,
+.pager__item.is-active a {
+  background: #e3831c;
+  color: #fff;
+}

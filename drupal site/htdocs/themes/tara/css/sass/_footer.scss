@@ -1,0 +1,76 @@
+/* Footer
+--------------------------------------*/
+#last-section {
+  position: relative;
+  visibility: hidden;
+  width: 100%;
+  min-height: 1px;
+  z-index: 12;
+}
+#footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #d9c8b3 url(../images/footer-bg.png);
+  border-top: 4px solid #fff;
+  z-index: 0;
+}
+.footer {
+  position: relative;
+}
+.footer-top {
+  position: relative;
+  width: 100%;
+  padding: 1rem 0;
+}
+.region-footer-top {
+  display: flex;
+  flex-direction: column;
+}
+.region-footer-top .block:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.footer-blocks {
+  position: relative;
+  display: flex;
+  padding: 1rem 0;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.footer-block {
+  flex: 1 0 260px;
+}
+.footer .block-title {
+  position: relative;
+  padding-left: 8px;
+  border-left: 2px solid #e3831c;
+}
+
+/* footer list style */
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+}
+.footer li {
+  padding: 4px 0;
+  border-bottom: 1px solid #bbb0a1;
+}
+.footer li:last-child {
+  border-bottom: 0;
+}
+/* Footer -> Footer Bottom Middle */
+.footer-bottom-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 3px double #bbb0a1;
+  padding: 1rem 0;
+}
+/* Footer -> Footer Bottom last*/
+.footer-bottom {
+  position: relative;
+  padding: 1rem 0;
+}

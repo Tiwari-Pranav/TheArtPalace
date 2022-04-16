@@ -1,0 +1,34 @@
++===============================+
+Version 8.1.0
+22 March, 2020
++===============================+
+# Initial version
+
+
++===============================+
+Version 8.1.1
+01 May, 2020
++===============================+
+# Fixed all known bugs.
+# Theme is now compatible on Drupal 9 also.
+
+
++===============================+
+Version 8.1.2
+23 May, 2020
++===============================+
+# Fixed slider image upload issue.
+# Fixed minor know bugs.
+# Tested theme on Drupal version 8.8.6 and 9.0.0-rc1
+# Theme tested on PHP 7.4.5
+
+
++===============================+
+Version 8.1.3
+01 March, 2021
++===============================+
+# Added required css for field label.
+# Added sass files.
+# New grid and flex based layouts.
+# Added option to show sidebar on frontpage.
+# Moved "Custom CSS Codes" section under "Insert Codes" in theme settings.

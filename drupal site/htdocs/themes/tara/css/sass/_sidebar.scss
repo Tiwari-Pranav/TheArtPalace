@@ -1,0 +1,52 @@
+/* Sidebar
+-------------------------------------------- */
+.sidebar {
+  position: relative;
+  margin: 0;
+}
+#sidebar-left {
+  padding: 0 20px 0 0;
+}
+#sidebar-right {
+  padding: 0 0 0 20px;
+}
+.region-sidebar-first,
+.region-sidebar-second {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .block {
+  margin-bottom: 20px;
+  padding: 15px 10px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: var(--shadow);
+}
+.sidebar .block-title {
+  color: #222;
+}
+.sidebar h3.block-title {
+  margin: 0.1em 0 0.2em 0;
+  padding-left: 6px;
+  font-size: 1.3em;
+  font-weight: 400;
+  border-bottom: 1px solid #ffff;
+  border-left: 2px solid #e3831c;
+}
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+}
+.sidebar li {
+  padding: 6px 0;
+  border-bottom: 2px solid var(--border);
+}
+.sidebar li:last-child {
+  border: 0;
+}
+/* search block in sidebar */
+.sidebar .form-search {
+  width: 100%;
+}

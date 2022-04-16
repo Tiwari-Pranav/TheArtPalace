@@ -1,0 +1,52 @@
+/* Sidebar
+--------------------------------*/
+/* Common for both sidebar */
+.sidebar {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Left sidebar + Right sidebar*/
+#sidebar-left,
+#sidebar-right,
+.two-sidebar #sidebar-left,
+.two-sidebar #sidebar-right {
+  float: left;
+}
+
+.sidebar .block {
+  padding: 20px;
+  background: var(--content-bg);
+  margin-bottom: 2em;
+  border-radius: 6px;
+}
+.sidebar .block-title {
+  background: url(../images/circle.svg) no-repeat top right;
+  background-size: contain;
+  line-height: 1;
+  padding-bottom: 0.3em;
+}
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebar ul li {
+  list-style: none;
+}
+.sidebar li {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--content-border-color);
+}
+/* Forms in sidebar */
+.sidebar input[type="text"],
+.sidebar input[type="email"],
+.sidebar input[type="url"],
+.sidebar input[type="password"],
+.sidebar input[type="search"],
+textarea {
+  width: 100%;
+  border: 1px solid var(--content-border-color);
+}

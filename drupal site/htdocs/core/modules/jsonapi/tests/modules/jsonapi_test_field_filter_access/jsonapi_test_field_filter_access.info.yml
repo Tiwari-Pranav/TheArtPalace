@@ -1,0 +1,9 @@
+name: 'JSON:API filter access'
+type: module
+description: 'Provides custom access related code to test JSON:API filter security.'
+package: Testing
+
+# Information added by Drupal.org packaging script on 2022-04-14
+version: '9.3.11'
+project: 'drupal'
+datestamp: 1649897478

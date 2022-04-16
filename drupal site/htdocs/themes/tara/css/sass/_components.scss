@@ -1,0 +1,53 @@
+/* Status message
+-------------------------------------- */
+.message {
+  position: relative;
+  color: #ffffff;
+  text-shadow: none;
+  margin: 20px 0;
+  padding: 14px 14px 14px 64px;
+}
+.message em {
+  color: #fff;
+  font-style: italic;
+  border-bottom: 1px dotted #fff;
+}
+.message p {
+  margin: 0;
+}
+.message a, .message a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+.message-status {
+  background: #89ad32;
+}
+.message-status::before {
+  content: "\f046";
+  background-color: #759625;
+}
+.message-error {
+  background: #c94d1c;
+}
+.message-error::before {
+  content: "\f071";
+  background-color: #b3461b;
+}
+.message-warning {
+  background: #cd5a0a;
+}
+.message-warning::before {
+  content: '\f06a';
+  background-color: #a44707;
+}
+.message::before {
+  font-family: "FontAwesome";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 53px;
+  text-align: center;
+  height: 100%;
+  line-height: 53px;
+  font-size: 30px;
+}

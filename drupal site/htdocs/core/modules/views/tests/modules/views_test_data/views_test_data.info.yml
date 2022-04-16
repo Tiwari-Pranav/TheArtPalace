@@ -1,0 +1,12 @@
+name: 'Views Test'
+type: module
+description: 'Test module for Views.'
+package: Testing
+# version: VERSION
+dependencies:
+  - drupal:views
+
+# Information added by Drupal.org packaging script on 2022-04-14
+version: '9.3.11'
+project: 'drupal'
+datestamp: 1649897478

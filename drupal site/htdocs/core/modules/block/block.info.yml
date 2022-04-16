@@ -1,0 +1,11 @@
+name: Block
+type: module
+description: 'Controls the visual building blocks a page is constructed with. Blocks are boxes of content rendered into an area, or region, of a web page.'
+package: Core
+# version: VERSION
+configure: block.admin_display
+
+# Information added by Drupal.org packaging script on 2022-04-14
+version: '9.3.11'
+project: 'drupal'
+datestamp: 1649897478

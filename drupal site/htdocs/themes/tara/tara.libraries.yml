@@ -1,0 +1,41 @@
+# These will be loaded on every pages.
+global-styling:
+  version: VERSION
+  css:
+    component:
+      css/font-awesome.css: {}
+    theme:
+      css/style.css: {}
+  js:
+    js/tara.js: {}
+  dependencies:
+    - core/jquery
+# Slider
+slider:
+  version: 2.3.4
+  css:
+    component:
+      css/slider.css: {}
+  js:
+    js/slider.js: {}
+  dependencies:
+    - core/jquery
+
+# Google Fonts from CDN
+googlefontscdn:
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=Open+Sans|Poppins|Roboto: { type: external }
+
+# Google Fonts from local
+googlefontslocal:
+  css:
+    theme:
+      css/font.css: {}
+
+# Book
+book:
+  version: VERSION
+  css:
+    component:
+      css/book.css: {}

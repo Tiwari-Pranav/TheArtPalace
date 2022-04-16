@@ -1,0 +1,36 @@
+name: Vani
+type: theme
+base theme: stable
+description: 'A light weight, Clean, flexible, fully responsive and multi-purpose Drupal 8, 9 theme by <a href="https://www.drupar.com" target="_blank">Drupar.com</a><br /><a href="https://www.drupar.com/theme/vani" target="_blank">Theme Page</a> | <a href="https://www.drupar.com/vani-documentation" target="_blank">Theme Documentation</a> | <a href="https://www.drupar.com/theme/vanipro" target="_blank">Vani Pro</a>'
+package: Drupar
+core_version_requirement: ^8 || ^9
+# Comment version before uploading to drupal.org
+# version: 8.1.3
+# Libraries
+libraries:
+  - vani/global-styling # Library for all global css. These css will be loaded on every pages.
+  - vani/global-scripts # Library for all global js. These js will be loaded on every pages.
+regions:
+  site_branding: 'Site Branding'
+  primary_menu: 'Primary menu'
+  search_box: 'Full Page Search'
+  page_header: 'Page Header'
+  highlighted: Highlighted
+  content: Content
+  content_top: 'Content Top'
+  content_bottom: 'Content Bottom'
+  content_home: 'Homepage Content'
+  sidebar_first: 'Sidebar Left'
+  sidebar_second: 'Sidebar Right'
+  footer_top: 'Footer Top'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_bottom: 'Footer Bottom'
+  hidden_blocks: 'Hidden Blocks'
+
+# Information added by Drupal.org packaging script on 2021-03-06
+version: '8.1.3'
+project: 'vani'
+datestamp: 1615029535

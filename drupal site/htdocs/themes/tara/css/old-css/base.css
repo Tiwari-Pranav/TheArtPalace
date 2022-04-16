@@ -1,0 +1,681 @@
+/* Variables
+-------------------------------------------- */
+:root {
+  --body-bg: #f4f4ef;
+  --text-color: #676767;
+  --bold-color: #222222;
+  --primary: #e3831c;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/* HTML and Body
+-------------------------------------------- */
+html {
+  height: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  background: #f4f4ef;
+  color: #676767;
+  overflow-x: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+/* Regions
+---------------------------------------- */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+template,
+[hidden] {
+  display: none;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden] {
+  display: none;
+}
+/* Typography
+-------------------------------------------- */
+/* Typography -> Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
+  color: #222222;
+}
+h1 {
+  margin-top: 0.5rem;
+  font-size: 2.2rem;
+}
+h2 {
+  margin-top: 0.5rem;
+  font-size: 1.8rem;
+}
+h3 {
+  margin-top: 0.4rem;
+  font-size: 1.6rem;
+}
+h4 {
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+h5 {
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+h6 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+/* Typography -> Links */
+a {
+  color: #dc5431;
+  background-color: transparent;
+  text-decoration: none;
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+a:active,
+a:hover,
+a:focus {
+  background-color: transparent;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+}
+a:hover {
+  color: #222222;
+}
+a:active,
+li a.active {
+  color: #dc5431;
+}
+
+/* Typography -> Abbreviation */
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+abbr {
+  cursor: help;
+}
+acronym {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* Typography -> Text styling */
+b,
+strong {
+  font-weight: bold;
+  color: #222;
+}
+em,
+dfn,
+cite {
+  font-style: italic;
+}
+mark,
+ins {
+  padding: 4px 8px;
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+small {
+  font-size: 80%;
+}
+big {
+  font-size: 125%;
+}
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+tt,
+var {
+  font-family: monospace, monospace;
+  font-style: italic;
+}
+
+/* Typography -> Paragraph */
+p {
+  margin: 0 0 1em 0;
+}
+
+/* Typography -> Blockquote */
+blockquote,
+q {
+  position: relative;
+  margin: 10px 0 20px 0;
+  padding: 20px;
+  background: #f7f7f7;
+  border: 1px solid #e8e8e8;
+  -webkit-box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+[dir="rtl"] blockquote {
+  margin: 10px 0 20px 0;
+  padding: 20px;
+  background: #f7f7f7;
+  border: 1px solid #e8e8e8;
+  -webkit-box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+blockquote:before,
+q:before {
+  content: "\f10d";
+  margin-right: 8px;
+  font-family: "FontAwesome";
+  font-size: 1.4em;
+  color: #1b2124;
+}
+[dir="rtl"] blockquote:before {
+  content: "\f10d";
+  margin-right: 0;
+  margin-left: 0.2em;
+  font-family: "FontAwesome";
+  font-size: 1.4em;
+  color: #1b2124;
+}
+blockquote > p:first-child {
+  display: inline;
+}
+blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+/* Typography -> HTML code tags */
+pre {
+  overflow: auto;
+}
+kbd {
+  padding: 4px 10px;
+  font-family: monospace, monospace;
+  font-size: 1em;
+  background: #f7f7f7;
+}
+pre,
+samp {
+  margin: 6px 0 10px 0;
+  padding: 4px 10px;
+  font-family: monospace, monospace;
+  font-size: 1em;
+  background: #f7f7f7;
+  border: 1px solid #e8e8e8;
+  -webkit-box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+code {
+  padding: 2px 10px;
+  font-family: monospace, monospace;
+  font-size: 1em;
+  background: #fff;
+}
+
+/* Typography -> Address */
+address {
+  margin: 0 0 1.75em;
+  font-style: italic;
+}
+
+/* Typography -> Description Lists */
+dl {
+  margin: 0 0 1.75em;
+}
+dt {
+  font-weight: 700;
+  color: #111;
+}
+dd {
+  margin: 0 0 1.75em;
+}
+
+/* Typography -> HTML Elements */
+hr {
+  clear: both;
+  width: 100%;
+  height: 2px;
+  margin: 8px 0;
+  background: #c9c6c2;
+  border: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* Forms
+-------------------------------------------- */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.6;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+  border-style: none;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 0;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+  opacity: 0.7;
+}
+::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}
+input {
+  line-height: normal;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc7c2;
+  border-radius: 4px;
+  -webkit-transition: border 0.5s linear;
+  -moz-transition: border 0.5s linear;
+  transition: border 0.5s linear;
+}
+textarea {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ccc7c2;
+  border-radius: 4px;
+  overflow: auto;
+  -webkit-transition: border 0.3s linear;
+  -moz-transition: border 0.3s linear;
+  transition: border 0.3s linear;
+  vertical-align: top;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+  border: 1px solid var(--primary);
+  outline: 0;
+}
+input[type="submit"],
+input[type="button"],
+button {
+  padding: 9px 10px;
+  background-color: var(--primary);
+  color: #fff;
+  border: 0;
+  border-radius: 2px;
+  -webkit-transition: background-color 0.4s ease;
+  -moz-transition: background-color 0.4s ease;
+  -o-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
+}
+input[type="submit"]:hover {
+  background-color: #222;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  outline-offset: -2px;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  margin: 0 0 10px 0;
+  padding: 0.35em 0.5em 0.5em 0;
+  border: 1px solid #c0c0c0;
+}
+fieldset > :last-child {
+  margin-bottom: 0;
+}
+legend {
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  color: inherit;
+  border: 0;
+  box-sizing: border-box;
+  white-space: normal;
+}
+optgroup {
+  font-weight: bold;
+}
+select {
+  padding: 4px 0;
+}
+form label {
+  display: table;
+  font-weight: bold;
+}
+label[for] {
+  cursor: pointer;
+}
+.page-content input[type="text"],
+.page-content input[type="password"],
+.page-content input[type="search"] {
+  padding: 9px 6px;
+  outline: 0;
+}
+
+/* Drupal form elements */
+.form-item {
+  margin-bottom: 1em;
+}
+.form-required:after {
+  content: "\f069";
+  display: inline-block;
+  padding-left: 4px;
+  font-family: "FontAwesome";
+  font-size: 0.5em;
+  color: var(--primary);
+  vertical-align: super;
+}
+.form-item label {
+  display: block;
+}
+label.option {
+  display: inline;
+  font-weight: normal;
+}
+
+/* placeholder */
+::-webkit-input-placeholder {
+  color: #8a8a8a;
+}
+:-moz-placeholder {
+  color: #8a8a8a;
+}
+::-moz-placeholder {
+  color: #8a8a8a;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  color: #8a8a8a;
+}
+
+/* List
+-------------------------------------------- */
+ul,
+ol {
+  margin: 0;
+  padding: 0 0 0.25em 1em; /* LTR */
+}
+[dir="rtl"] ul,
+[dir="rtl"] ol {
+  padding: 0 1em 0.25em 0;
+}
+ol ol,
+ul ul {
+  margin: 0;
+  padding: 0 0 0.25em 1em; /* LTR */
+}
+[dir="rtl"] ol ol,
+[dir="rtl"] ul ul {
+  padding: 0 1em 0.25em 0;
+}
+ul {
+  list-style: disc;
+}
+ol {
+  list-style: decimal;
+}
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+[dir="rtl"] ul,
+[dir="rtl"] ol {
+  padding: 0 1em 0.25em 0;
+}
+li {
+  padding: 4px 0;
+}
+.node-content li {
+  padding: 6px 0;
+}
+
+/* Table
+-------------------------------------------- */
+table {
+  width: 100%;
+  margin-bottom: 1.2em;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+th,
+tr,
+td {
+  vertical-align: middle;
+}
+th {
+  margin: 0;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  background: #dc5431;
+  color: #fff;
+  border: 2px solid #dc6d50;
+  text-align: left;
+  text-shadow: none;
+}
+td {
+  padding: 5px 10px;
+  border: 2px solid #fff;
+}
+
+/* Default box sizing
+-------------------------------------------- */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:after,
+*::after,
+*:before,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Media
+-------------------------------------------- */
+img,
+a img {
+  max-width: 100% !important;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border-style: none;
+  border: 0;
+  vertical-align: middle;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  max-width: 100%;
+  height: auto;
+  margin: 1em 0;
+  border: 0;
+}
+figcaption {
+  padding: 4px;
+  font-size: 0.8em;
+  background: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.align-left,
+img.align-left,
+figure.align-left {
+  float: left;
+  margin: 20px 20px 20px 0;
+}
+.align-right,
+img.align-right,
+figure.align-right {
+  float: right;
+  margin: 20px 0 20px 20px;
+}
+.align-center,
+img.align-center,
+figure.align-center {
+  display: block;
+  clear: both;
+  margin: 20px auto;
+}
+figure.align-center {
+  display: table;
+}
+figure.align-center img {
+  display: block;
+  clear: both;
+  margin: 0 auto;
+}
+/* Drupal image filed */
+.image-field {
+  margin: 0 0 1em 0;
+}
+.feed-icon {
+  display: block;
+}
+summary {
+  padding: 0.5em;
+  background: #e4e4dd;
+  cursor: pointer;
+  color: #676767;
+  color: var(--text-color);
+}
+
+/* Misc
+-------------------------------------------- */
+::selection {
+  background: var(--primary);
+  color: #fff;
+  text-shadow: none;
+}
+::-moz-selection {
+  background: var(--primary);
+  color: #fff;
+  text-shadow: none;
+}
+

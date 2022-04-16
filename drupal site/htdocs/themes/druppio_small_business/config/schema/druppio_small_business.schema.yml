@@ -1,0 +1,5 @@
+# Schema for the configuration files of the druppio_small_business theme.
+
+druppio_small_business.settings:
+  type: theme_settings
+  label: 'druppio_small_business Settings'

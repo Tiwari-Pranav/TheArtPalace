@@ -1,0 +1,52 @@
+/* Clearing
+-------------------------------------------- */
+.clear {
+  clear: both;
+  width: 100%;
+}
+#highlighted::before,
+#last-section::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+#highlighted::after,
+#last-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#main-wrapper::before,
+#homepage-content-wrapper::before,
+#main-wrapper::after,
+#homepage-content-wrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.page-title-wrap::before,
+.page-title-wrap::after,
+.node-content::before,
+.node-content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.node-header::before,
+.node-header::after,
+.node-taxonomy-container::before,
+.node-taxonomy-container::after,
+.node-links-container::before,
+.node-links-container::after,
+nav.pager::before,
+nav.pager::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#node-comment::before,
+#node-comment::after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,28 @@
+/* Misc
+---------------------------------------- */
+::-moz-selection {
+  background: var(--theme-color);
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background: var(--theme-color);
+  color: #fff;
+  text-shadow: none;
+}
+
+/* Clearing
+--------------------------------------*/
+.clear {
+	position: relative;
+}
+.clear::before,
+.clear::after,
+.row::before,
+.row::after,
+.section::before,
+.section::after {
+  content: '';
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,67 @@
+/* Block Regions
+--------------------------*/
+.block-title {
+  position: relative;
+}
+
+/* Breadcrumb
+--------------------------*/
+#breadcrumb {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  background: #e4e4dd;
+  z-index: 3;
+  -webkit-box-shadow: 0 1px 1px #b9ad8c;
+  -moz-box-shadow: 0 1px 1px #b9ad8c;
+  box-shadow: 0 1px 1px #b9ad8c;
+}
+ol.breadcrumb-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.breadcrumb-items {
+  display: flex;
+  align-items: center;
+}
+ol.breadcrumb-items li {
+  display: inline;
+  padding: 0;
+}
+.breadcrumb-item-seperator {
+  margin: 0 10px;
+}
+
+/* Highlight region */
+#highlighted {
+  position: relative;
+  background: var(--light);
+  z-index: 2;
+}
+#highlighted .block {
+  margin: 0 0 6px 0;
+  padding: 6px 0;
+}
+
+/* content top and content bottom block region */
+#content-top,
+#content-bottom {
+  width: 100%;
+}
+.region-content-top,
+.region-content-bottom {
+  display: flex;
+  flex-direction: column;
+}
+.region-content-bottom {
+  margin-top: 1rem;
+}
+.region-content-top .block,
+.region-content-bottom .block {
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  background-color: var(--light);
+  box-shadow: var(--shadow);
+}

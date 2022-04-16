@@ -1,0 +1,11 @@
+type: module
+name: Migration Track Changes Test
+description: 'Provides test fixtures for testing track changes marks.'
+package: Testing
+dependencies:
+  - drupal:migrate
+
+# Information added by Drupal.org packaging script on 2022-04-14
+version: '9.3.11'
+project: 'drupal'
+datestamp: 1649897478

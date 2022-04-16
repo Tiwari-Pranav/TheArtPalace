@@ -1,0 +1,165 @@
++===============================+
+Version 8.1.1
+10 Feb, 2019
++===============================+
+# Initial version
+
+
+
++===============================+
+Version 8.1.2
+21 Feb, 2019
++===============================+
+# Minor css fixes
+
+
+
++===============================+
+Version 8.1.3
+23 Feb, 2019
++===============================+
+# Updated README.txt
+# Added styling for site name and site slogan in site branding.
+# Coverted array into short array syntax.
+
+
+
++===============================+
+Version 8.1.4
+20 Mar, 2019
++===============================+
+# Updated Owl Carousel to version 2.3.4
+# Slider css and js file will now load only on homepage for faster inner page loading.
+# Vertical middle align main menu in header.
+
+
+
++===============================+
+Version 8.1.5
+29 Mar, 2019
++===============================+
+# Fixed links inline display.
+# Added icons in inline items.
+# Added tutorial link for font icons.
+# Better display of nodes in teaser view.
+# Fixed bug in theme settings -> Content -> Show node tags
+# Fixed homepage content through node not showing.
+
+
+
++===============================+
+Version 8.1.6
+03 Apr, 2019
++===============================+
+# Fixed jQuery console error on homepage if slider is disabled.
+# Add link to shortcode tutorial page.
+
+
+
++===============================+
+Version 8.1.7
+23 Apr, 2019
++===============================+
+# New status message style.
+# Better Slider styling.
+# Improved responsive layout.
+# Added column shortcodes.
+
+
+
++===============================+
+Version 8.1.8
+10 May, 2019
++===============================+
+# Added styling for book module.
+# Added option for slider interval time, dots navigation.
+# Added option for "Additional CSS" in theme settings.
+
+
++===============================+
+Version 8.1.9
+22 Aug, 2019
++===============================+
+# Added font size shortcode.
+# Added new social icons vk.com, whatsapp, github, telegram.
+# Minor bug fixes.
+
+
++===============================+
+Version 8.1.10
+22 Aug, 2019
++===============================+
+# Fixed minor known bugs.
+
+
+
++===============================+
+Version 8.2.0
+10 June, 2020
++===============================+
+# Compatible on Drupal 9.x.x also.
+# Added option to load Google fonts locally or from Google CDN server.
+# Added vimeo social icon.
+# Fixed minor known bugs.
+
+
++===============================+
+Version 8.2.2
+13 June, 2020
++===============================+
+# Fixed frontpage content appreance bug.
+
+
++===============================+
+Version 8.2.3
+05 Sep, 2020
++===============================+
+# Fixed breadcrumb appearance issue.
+# Added option for sidebar on homepage.
+
+
++===============================+
+Version 8.2.4
+27 Feb, 2021
++===============================+
+# Fixed minor known bugs.
+# Fixed inline label display bug.
+# Grid based layout.
+# Removed Google Plus from social icons.
+# Moved "Additional CSS" under "Insert codes" in theme settings.
+
+
++===============================+
+Version 8.3.0
+03 July, 2021
++===============================+
+# Fixed responsive layout in mobile devices.
+# Added styling to content-top and content-bottom block regions.
+# Added box-shadow style to comments.
+# Increased font size from 0.9em to 1rem for mobile devices.
+# Added option to upload slider image from theme settings.
+# Changed column shortcode to flex based.
+# Fixed other minor known bugs.
+
+
++===============================+
+Version 8.3.1
+04 July, 2021
++===============================+
+# Added new shortcodes.
+
+
++===============================+
+Version 8.3.2
+04 July, 2021
++===============================+
+# Fixed minor bugs.
+
+
++===============================+
+Version 8.3.3
+04 July, 2021
++===============================+
+# Fixed reposnive layout for services, features and projects shortcodes.
+# Fixed full search box in mobile devices.
+# Fixed other minor bugs.
