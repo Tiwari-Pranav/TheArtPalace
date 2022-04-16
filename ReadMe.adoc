@@ -8,6 +8,8 @@ image:https://github.com/Tiwari-Pranav/fsf_2022_task3/blob/main/Images/website-l
 
 **The Art Palace** is a **Mutli National Coorperation** that deals in **Traditional Art** such as painting, sceneries as well **Digital Art** such as visual graphics, 2D/3D animation, animated gif etc. Company owns mutliple **High-end ART Gllaries** in key cities In India, which also serve as their centre of operation for business dealings aroung the **Globe**. The Gallarist also try to give back as much as they can by supporting young artists through well documented **resources** and **tutorial**, and by providing a platform would let them **showcase** shocase their talent. TAP also provide to a discussion platform through its form sucso that young minds can get experienced artists. 
 
+The link to google drive storing __Site Archive File__ : https://drive.google.com/drive/folders/11s-52SIn_pU9JxBni4bqouM7oNMNaKgi?usp=sharing
+
 == Website 
 
 A **fully responsive Drupal 9**  web page for **The ART Palace**
